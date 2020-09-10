@@ -4,6 +4,7 @@ title: Init Commit Revamp
 slug: /2009101211
 date: 2020-09-09 23:57
 description: First blog post
+featuredImage: /assets/programmer-1653351_640.png
 ---
 So, I decided to abandon my newly created blog and create another one since I like this layout and styling a lot more.  I also like how much cleaner the code seems with this starter code.  My other blog is less than two days old, but c'est la vie.  As with my older blog, I created this one using Gatsby, React and Netlify.  I had to configure the [starter](https://www.gatsbyjs.com/starters/stackrole/gatsby-starter-foundation) project to use Github for Oauth.  I didn't feel like dealing with another password to remember.
 
