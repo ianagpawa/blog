@@ -3,7 +3,7 @@ template: index-page
 slug: /
 title: Ian Agpawa
 tagline: Software Engineer
-featuredImage: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
+featuredImage: /assets/programming-2115930_640.jpg
 cta:
   ctaText: Know more
   ctaLink: /about
