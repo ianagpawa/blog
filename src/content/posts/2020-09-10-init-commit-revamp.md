@@ -10,4 +10,4 @@ So, I decided to abandon my newly created blog and create another one since I li
 
 I took out the `about` and `contact` routes since they seemed unnecessary.  I have to delete their templates, do general clean up, and then figure out how to change the image cards on the landing page to showcase my personal projects.  I need to find and download free images to use. All that's for another day, but for now, I guess this is Round 2.
 
-Actually, the count is probably higher than that considering how many older blogs I have.  Regardless, I hope this one lasts.
+Actually, the count is probably higher than that considering how many older blogs I have.  Regardless, I hope this one lasts; ca va sans dire.
