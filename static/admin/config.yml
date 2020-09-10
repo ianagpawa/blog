@@ -1,6 +1,5 @@
 backend:
   name: github
-  branch: main
   repo: ianagpawa/blogfolio
 
   commit_messages:
