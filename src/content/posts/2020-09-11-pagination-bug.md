@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: Pagination Bug
-slug: "2009102357"
+slug: /2009102357
 date: 2020-09-10 23:57
 description: Pagination bug
 ---
