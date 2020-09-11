@@ -2,11 +2,6 @@
 @import "defaults";
 @import "lib/css-grid-utility";
 
-// .primary-container {
-// 	display: grid;
-// 	grid-template-rows: 60px auto 60px;
-// 	min-height: 100vh;
-// }
 .primary-container main {
 	min-height: calc(100vh - 60px - 81px);
 }
@@ -250,6 +245,7 @@ article img {
 	.featured-image {
 		min-height: 50vh;
 		border-radius: 12px;
+		margin-left: 25%;
 	}
 }
 // Buttons 
@@ -298,47 +294,11 @@ article img {
 // Page
 .page,
 .blog-page,
-.contact-page,
-.thanks-page,
 .not-found-page {
 	padding: 50px 20px;
 	.wrapper {
 		max-width: 768px;
 		margin: 0 auto;
-	}
-}
-// Contact page
-.contact-page {
-	.wrapper {
-		max-width: 768px;
-		margin: 0 auto;
-	}
-	.description {
-		line-height: 1.5;
-	}
-}
-.contact-form {
-	margin-top: 36px;
-	label {
-		color: var(--label-text);
-	}
-	input,
-	textarea {
-		width: 100%;
-		max-width: 100%;
-		margin: 8px 0 16px;
-		padding: 16px;
-		border: 6px solid #A4A89760;
-		border-radius: 12px;
-		appearance: none;
-		font-size: 18px;
-		font-weight: 600;
-		&:focus {
-			border-color: var(--input-focus-border);
-		}
-	}
-	textarea {
-		min-height: 200px;
 	}
 }
 .site-footer {

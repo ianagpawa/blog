@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i,600,700,700i&display=swap');
 // breakpoints
 $breakpoint-sm: 576px;
 $breakpoint-md: 768px;
@@ -6,18 +7,18 @@ $breakpoint-xl: 1200px;
 
 :root {
 
-	--font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+	--font-family: 'Josefin Sans',sans-serif;
 	--font-family-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
   --font-size-small: 12px;
   
-  --primary-color: #5C2941;
-  --header-bg: #5C2941;
+  --primary-color: #000c18;
+  --header-bg: #000c18;
 
   --home-link-color: #A1613F;
   --home-link-hover-color:  var(--primary-color);
 
   --button-color: #E5C3D3;
-  --button-alternate-color: #5C2941;
+  --button-alternate-color: #000c18;
 
   --post-link-color: #0F070B;
 
