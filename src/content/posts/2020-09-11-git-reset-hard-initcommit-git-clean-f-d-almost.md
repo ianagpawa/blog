@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: git reset --hard initCommit && git clean -f -d (almost)
-slug: "2009102255"
+slug: /2009102255
 date: 2020-09-10 22:38
 description: Aborted another restarting another new blog.
 ---
