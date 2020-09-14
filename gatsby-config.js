@@ -79,8 +79,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Blogfolio`,
-        short_name: `Blogfolio`,
+        name: `BlogIt`,
+        short_name: `BlogIt`,
         start_url: `/`,
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
@@ -88,6 +88,6 @@ module.exports = {
         icon: `static/assets/icon.png`,
       },
     },
-    'gatsby-plugin-offline',
+    // 'gatsby-plugin-offline',
   ],
 }

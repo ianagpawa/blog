@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: ianagpawa/blogfolio
+  repo: ianagpawa/blog
 
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
