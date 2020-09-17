@@ -3,6 +3,9 @@ template: contact-page
 slug: /contact
 title: Get in touch
 ---
-Got a burning question regarding **JAMstack**, Need a new **Website**, or just anything in general. We are happy to talk.
+Have a good joke?  
+Know an interesting thing about psychology or philosophy?  
+Got a good taco spot?  
+What song would you recommend for the current apocalypse?
 
-Just send us a message using the form below or you can send us a DM on [Twitter](https://twitter.com/stackrole)
+Send me a message about anything.
