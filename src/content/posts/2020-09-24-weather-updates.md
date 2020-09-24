@@ -10,4 +10,6 @@ Worked on a few changes to the weather app.  I added another card to each row so
 
 Updated the configuration for github, and deploying it from /root of the gh-pages branch.  I need to automate the deploy process; easy as adding scripts in the package.
 
-Need to add the search feature back on there and still need to update the styling for the current day.  Overall, decently satisfied with the overall project, but I probably could've used a better template layout.  I can always rework it later; template is easy.
+Need to add the search feature back on there and still need to update the styling for the current day.  Overall, decently satisfied with the overall project, but I probably could've used a better template layout.  I can always rework it later; template is easy.  
+
+This was quite a learning experience; I'm more confident in my React-Redux abilities.  For the next project, I'll try to create another React project.  Maybe it'll be the one I was thinking of; a front page to the internet or something.  It could have a small widget for the current weather; iframe for a random youtube video; rnadom quote; suggestions for movies/shows, and for song on spotify.  For that to work, I'd need to create an API, possibly add swagger to it.  That'll be a big one.  I have no doubt I'll be able to do that, I just need to find a good template layout that I'll like.
