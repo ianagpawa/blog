@@ -1,0 +1,9 @@
+---
+template: blog-post
+title: Decommissioned other blog
+path: /2009121158
+date: 2020-09-12 10:53
+metaDescription: decommissioned blog
+thumbnail: /assets/image-5.jpg
+---
+I decommissioned my other blog as it's not needed any more.  I've been looking up bootstrap layouts for other projects and found some interesting ones.  But first, I have to finalize my most recent portfolio and get that up and running on github pages.  Then, I need to revamp the layout to my newsfeed project, then create a covid heatmap dashboard.  I'm thinking of doing that one with Angular rather than React just because the project after that would be a weather forecast revamp in React.  After those, I would like to create a sort of recommendation site, where I have a most recently watched/recommended movie or show along with what i'm currently listening to, and then a random quote.  I think that one's going to be rather interesting since I'm aiming to create my first Java Sprint Boot API and have a swagger along with it hosted on Heroku.  With the API set up, I'm going to either host it on Netlify or github pages.  I'm leaning toward Netlify since I want to know more about it, even though it doesn't seem very complicated.  Although github pages would probably be as equally convenient and function the same way.  I guess that's the road map for the next couple of weeks.  But the portfolio and newsfeed I aim to finish by this weekend.  I'll try to squeeze in the COVID map as well, if not, by end of next week along with the weather forecast.  Recs site will be later later, unless I find another project that I find more interesting.
