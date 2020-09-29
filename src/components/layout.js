@@ -1,41 +1,32 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
+import Navigation from "../components/navigation"
+import 'prismjs/themes/prism-okaidia.css';
 
-import Header from "./header"
-import Logo from "./logo"
-import Navigation from "./navigation";
-
-import "../assets/scss/style.scss"
-import Footer from "./footer";
-
-const query = graphql`
-query LayoutQuery {
-  site {
-    siteMetadata {
-      siteTitle: title
-    }
-  }
-}
-`
-
-const Layout = ({children, className}) => {
-
-  const { site } = useStaticQuery(query)
-  const { siteTitle } = site.siteMetadata
-
+export default ({ children }) => {
+  const data = useStaticQuery(
+    graphql`
+      query {
+        site {
+          siteMetadata {
+            title
+          }
+        }
+      }
+    `
+  )
   return (
-    <div className="primary-container">
-      <Header>
-        <Logo title={siteTitle} />
-        <Navigation/>
-      </Header>
-      <main className={"container " + className}>
-        {children}
-      </main>
-      <Footer/>
+    <div className="site-wrapper">
+      <header className="site-header">
+        <div className="site-title">
+          <Link to="/">{data.site.siteMetadata.title}</Link>
+        </div>
+        <Navigation />
+      </header>
+      {children}
+      <footer className="site-footer">
+        <p>&copy; {new Date().getFullYear()} BlogIt &bull; Crafted with <span role="img" aria-label="love">❤️</span> by <a href="https://w3layouts.com">W3Layouts</a></p>
+      </footer>
     </div>
   )
 }
-
-export default Layout
-
