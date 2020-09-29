@@ -1,9 +1,9 @@
 {
-  "title": "Delog",
-  "siteUrl": "https://delog-w3layouts.netlify.com/",
-  "description": "Delog, a GatsbyJS and Netlify CMS starter for Designers and Developers",
+  "title": "BlogIt",
+  "siteUrl": "https://xenodochial-edison-d8fc22.netlify.app",
+  "description": "BlogIt, a GatsbyJS (Delog) and Netlify CMS starter",
   "home": {
-    "title": "Hi! I'm Delog",
-    "description": "I have been specifically designed to become a digital home for designers and developers, help them build amazing professional looking websites with ease. You don't have to worry about nitty gritty of web hosting services to run a blog and yet take full advantage of CMS to manage content :)"
+    "title": "Hellow World!",
+    "description": "My name is Ian and welcome to my blog! I like to develop web applications and this serves to document my thought process. It's a peek behind the logic and reasoning of the code; an attempt to impose an artificial structure on the stream of consciousness of a software engineer.  I hope you enjoy the hopefully coherent chaos: ca va sans dire."
   }
 }
