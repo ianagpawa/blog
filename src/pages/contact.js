@@ -44,7 +44,31 @@ const ContactPage = ({
           <p>Let me help you kick start your next project &rarr;</p>
         </div>
         <div>
-          <form name="contact" className="form-container" action="/thanks" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+        <form name="contact" className="form-container" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+          <input type="hidden" name="bot-field" />
+          <input type="hidden" name="form-name" value="contact" />
+          <div className="field half first">
+            <label htmlFor="name">Name</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div className="field half">
+            <label htmlFor="email">Email</label>
+            <input type="text" name="email" id="email" />
+          </div>
+          <div className="field">
+            <label htmlFor="message">Message</label>
+            <textarea name="message" id="message" rows="6" />
+          </div>
+          <ul className="actions">
+            <li>
+              <input type="submit" value="Send Message" className="special" />
+            </li>
+            <li>
+              <input type="reset" value="Clear" />
+            </li>
+          </ul>
+        </form>
+          {/* <form name="contact" className="form-container" action="/thanks" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
           <input type="hidden" name="bot-field" />
           <input type="hidden" name="form-name" value="contact" />
             <div>
@@ -66,7 +90,7 @@ const ContactPage = ({
             <div style={{display: "flex", justifyContent: "flex-end"}}>
               <input type="submit" className="button -primary" style={{marginRight: 0}} />
             </div>
-          </form>
+          </form> */}
         </div>
       </div>
     </Layout>
