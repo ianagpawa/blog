@@ -29,6 +29,6 @@ export const getRequest = (params)  => {
 }
 ```
 
-It's pretty much reuseable code, since it'll apply to any API call being made on react/redux.  I'm surprised something like this isn't integrated.
+It's pretty much reuseable code, since it'll apply to any API call being made on react/redux.  I mean, you would have to tweak the getUrl and the params bit, but it's generalizable.  I'm surprised something like this isn't already part of the package.
 
 I still need to add an error notification, probably red-colored text of some sort.
