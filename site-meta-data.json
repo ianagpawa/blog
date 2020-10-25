@@ -4,6 +4,6 @@
   "description": "BlogIt, a GatsbyJS (Delog) and Netlify CMS starter",
   "home": {
     "title": "Hello World!",
-    "description": "Welcome to my blog! My name is Ian Agpawa and I like to develop web applications.  This my personal blog where I rant about the projects I'm working on and it serves to document my thought process.  It's a peek behind the logic and reasoning of the code; an attempt at imposing an artificial structure on the stream of consciousness of a software engineer.  I hope you enjoy the coherent chaos: ca va sans dire."
+    "description": "Welcome to my blog! My name is Ian Agpawa and I like to develop web applications.  This is my personal blog where I rant about the projects I'm working on and also serves to document my thought process.  It's a peek behind the logic and reasoning of my code; an attempt in imposing an artificial structure on the stream of consciousness of a software engineer. Enjoy the coherent chaos, ca va sans dire."
   }
 }
