@@ -1,0 +1,11 @@
+---
+template: BlogPost
+path: /201028-2318
+date: 2020-10-29T03:18:02.551Z
+title: OIDC tokens
+---
+I spent the last couple of days having to look through apache error logs in Openshift sifting through debug outputs trying to find golden nuggets about this particular issue we were having with logout.  The issue was that when hitting the session endpoint after 1 hour, we would get an error message either about an unknown jwt or issue with the identity token.  My gut feeling told me this was an issue with the expiry process.  What was so painful about the whole ordeal was that the OP issued tokens had an expiry time of 1 hour, so I would add/change configs on mod_auth_openidc, deploy it, then log in with a user, and have to wait an hour until I could really test the changes.  And if there was an issue, I'd have to rinse and repeat.  There was no way for us to change the time limit since it was handled on the OP side; changes to session timeout or expiry configs in mod_auth_openidc would not have mattered because it was with the identity and access tokens themselves, so because of that debugging it was taking so long.  
+
+Initially, I was seeing that our access tokens were not refreshing, so I had to debug that and add and reconfigure some settings.  That took half a day just to figure out and fix with all the deploying, waiting, testing and going through logs.  Then I noticed the expiry for the id_token_hint wasn't updating even after the refresh tokens were issued.  I did some digging on some documentation and figured out that identity tokens are really only used during authentication, and access tokens are used the rest of the way, which is why they do require refreshing.  Identity tokens then don't need refreshing, but they're also used during logout and must be valid in order for the process to be successful, and that was the root cause of the bug.  
+
+This bug took way too long to figure out and I am honestly exhausted.  At the very least however, I've learned about things about OIDC and have a pretty good understanding of mod_auth_openidc in addition to my existing knowledge about httpd.  
