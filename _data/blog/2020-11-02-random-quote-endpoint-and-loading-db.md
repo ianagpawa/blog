@@ -1,0 +1,11 @@
+---
+template: BlogPost
+path: /201101-2340
+date: 2020-11-02T04:40:25.425Z
+title: Random Quote Endpoint and Loading DB
+---
+I added a GET random quote endpoint to the RESTful api.  I achieved this by getting a random integer in the range of 0 and the list size, then using that number to retrieve a random quote.  There is one problem however where the sometimes the random number is returned twice in a row and it doesn't seem like another quote was retrieved.  It doesn't occur often (obviously) but it's an issue that should be addressed in the future.  I'm thinking of either having a randomIndex prop in the controller class to check if its the same random index that's been returned, and if it is, a new random index should be generated.  There's probably a way to do it recursively as well, which would be kinda neat.  Another option would be copy the list and remove the element at the random index; that way the same random index could never be returned consecutively, but it would also allow for all the quotes to be randomly returned in a series of requests.  When the list size is 1, then the last one should be returned, and then the original list should be copied, which would kickstart the whole process again.  My only issue would be to make sure I was actually copying the list and not mutating the original list; it's the issue of pass by reference vs. pass by value.
+
+I also migrated the quotes I wanted to preload onto the DB into a json file, which I then used to read to from and create Quote objects to be saved into the repository, preloading the DB on start.  I think I'm going to deploy this one without actually connecting to a DB, at least for now any way.  I might add on to this project with the recommendations thing I was considering (music/youtube and movies). I'd need to look into Heroku for that; I'm just a little wary about providing payment info since I had read some horror stories from AWS users getting a huge bill for their instances.
+
+I was also considering integrating swagger before moving forward with the rest of it.
