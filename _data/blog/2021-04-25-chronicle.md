@@ -3,6 +3,7 @@ template: BlogPost
 path: /210424
 date: 2021-04-25T03:22:31.207Z
 title: Chronicle
+thumbnail: /assets/john-towner-3kv48ns4wuu-unsplash.jpg
 ---
 I've just been keeping my head down and powering through work.  There hasn't really been anything difficult lately, it's just working from home is starting to take its toll on me after more than year.  After talking with coworkers and friends in a similar situation, I don't seem to be the only one with feelings of stress, anxiety and despair.  It's not extremely bad; it comes and goes, but there are some days that I just can't seem to function normally and I just need to veg out.  Despite this, I suppose it could always be worse.  I still need to get the vaccinate; I was slated to get it this past Friday but the facility cancelled due to issues with availability, so I have to reschedule.
 
